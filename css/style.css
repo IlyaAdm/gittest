@@ -2,14 +2,14 @@
     margin: 0; /* Убираем стандартные отступы body */
     padding: 0; /* Убираем стандартные отступы body */
     height: 100vh; /* Задаем высоту body равной высоте видимой области экрана */
-    background-image: url("img/tree.jpg");
+    background-image: url("../img/tree.jpg");
     background-size: cover; /* Заставляем изображение масштабироваться и покрывать всю область */
     background-position: center; /* Центрируем изображение */
     background-repeat: no-repeat; /* Запрещаем повторение изображения */
   }
   body.loading {
     background-color: green; 
-    background-image: url('img/loading.png');
+    background-image: url('../img/loading.png');
     background-repeat: no-repeat;
     background-position: center center;
 }
