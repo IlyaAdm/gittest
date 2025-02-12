@@ -1,4 +1,4 @@
- body {
+ .boss{
     margin: 0; /* Убираем стандартные отступы body */
     padding: 0; /* Убираем стандартные отступы body */
     height: 100vh; /* Задаем высоту body равной высоте видимой области экрана */
@@ -6,6 +6,7 @@
     background-size: cover; /* Заставляем изображение масштабироваться и покрывать всю область */
     background-position: center; /* Центрируем изображение */
     background-repeat: no-repeat; /* Запрещаем повторение изображения */
+    background-color: green; 
   }
   body.loading {
     background-color: green; 
@@ -13,7 +14,26 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
-
+.sistr {
+  margin: 0; /* Убираем стандартные отступы body */
+    padding: 0; /* Убираем стандартные отступы body */
+    height: 100vh; /* Задаем высоту body равной высоте видимой области экрана */
+    
+    background-size: cover; /* Заставляем изображение масштабироваться и покрывать всю область */
+    background-position: center; /* Центрируем изображение */
+    background-repeat: no-repeat; /* Запрещаем повторение изображения */
+    background-color: rgb(249, 227, 250); 
+  }
+.vse {
+  margin: 0; /* Убираем стандартные отступы body */
+  padding: 0; /* Убираем стандартные отступы body */
+  height: 100vh; /* Задаем высоту body равной высоте видимой области экрана */
+  
+  background-size: cover; /* Заставляем изображение масштабироваться и покрывать всю область */
+  background-position: center; /* Центрируем изображение */
+  background-repeat: no-repeat; /* Запрещаем повторение изображения */
+  background-color: rgb(194, 235, 187); 
+}
 
 .container {
   padding: 55px 0;
@@ -28,3 +48,32 @@
 .pad {
   padding: 330px;
 } 
+.title {
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: black;
+  padding: 20px;
+}
+p {
+  text-indent: 20px;
+  color: black;
+}
+
+.ssylka {
+  text-decoration: none;
+}
+.form-check {
+  margin-left: 25px;
+}
+.opros {
+  padding-top: 20px;
+}
+.knopka {
+  margin-left: 25px;
+}
+.glavnay {
+  text-align: center;
+  padding-top: 110px;
+}
